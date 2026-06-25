@@ -148,11 +148,11 @@ Com `UBER_FETCH_TIME = 300s` (5 min), caminhar até **~417m é gratuito**: o usu
 
 ## 10. Achados Não-Óbvios
 
-1. **Trade-off tempo × dinheiro**: no par Médio, a rota mais rápida sem trânsito custa **R$ 17,10** — mais cara que a rota com trânsito (R$ 13,65). A rota livre é mais longa em quilômetros; sob congestionamento, o algoritmo prefere uma rota mais curta em km que economiza dinheiro.
+1. **Trade-off tempo × dinheiro**: no par Médio, a rota mais rápida sem trânsito custa **R$ 17,10**, mais cara que a rota com trânsito (R$ 13,65). A rota livre é mais longa em quilômetros; sob congestionamento, o algoritmo prefere uma rota mais curta em km que economiza dinheiro.
 
 2. **Saturação topológica no par Longo**: caminhar mais de 56m não traz benefício adicional, pois todos os candidatos `P` convergem para o mesmo ponto de travessia da Av. Olavo Montenegro. **Conexão direta com o bridge node `3454188414`** identificado via betweenness centrality no T1U2.
 
-3. **Bidirectional ≥ A***: em pares onde o A* não encontra uma direção clara (par Médio), o Bidirectional expande **330 nós** vs **559** do A* — mostrando que um algoritmo sem heurística pode superar uma busca guiada quando a heurística é fraca.
+3. **Bidirectional ≥ A***: em pares onde o A* não encontra uma direção clara (par Médio), o Bidirectional expande **330 nós** vs **559** do A*, mostrando que um algoritmo sem heurística pode superar uma busca guiada quando a heurística é fraca.
 
 ---
 
@@ -194,7 +194,7 @@ Data: **29/06/2026 ou 01/07/2026** (presencial).
 
 ## 14. Conexão com a Unidade 2
 
-Este projeto reaproveita a malha viária estudada no [trabalho da Unidade 2](../projeto_T1U2_AED2/) (T1U2), onde caracterizamos a topologia da rede usando degree, betweenness, closeness e k-core. O **bridge node `3454188414`** identificado lá reaparece neste trabalho como **ponto crítico de saturação topológica** no par Longo — uma validação cruzada interessante entre as duas análises.
+Este projeto reaproveita a malha viária estudada no [trabalho da Unidade 2](../projeto_T1U2_AED2/) (T1U2), onde caracterizamos a topologia da rede usando degree, betweenness, closeness e k-core. O **bridge node `3454188414`** identificado lá reaparece neste trabalho como **ponto crítico de saturação topológica** no par Longo, uma validação cruzada interessante entre as duas análises.
 
 ---
 
