@@ -163,7 +163,6 @@ projeto_final_AED2/
 ├── README.md                       ← este arquivo
 ├── PROJETO_FINAL.ipynb             ← notebook executável (Google Colab)
 ├── relatorio.pdf                   ← relatório IEEE 4 páginas
-├── relatorio.tex                   ← fonte LaTeX do relatório
 └── imagens/
     ├── trafego_sintetico.png       ← modelo de trânsito (Fig. 1)
     ├── comparacao_algoritmos.png   ← eficiência dos algoritmos (Fig. 2)
