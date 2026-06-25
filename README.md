@@ -96,7 +96,7 @@ Caminhar acontece **em paralelo** ao tempo de busca do motorista. Portanto, cami
 t_efetivo = max(0, t_caminhada − UBER_FETCH_TIME)
 ```
 
-Com `UBER_FETCH_TIME = 300s` (5 min), caminhar até **~417m é gratuito** — o usuário estaria parado esperando o motorista de qualquer forma. Esse modelo é o que torna a otimização do RideSmart útil na prática (sem ele, o otimizador degenera para sempre escolher `P = A`).
+Com `UBER_FETCH_TIME = 300s` (5 min), caminhar até **~417m é gratuito**: o usuário estaria parado esperando o motorista de qualquer forma. Esse modelo é o que torna a otimização do RideSmart útil na prática (sem ele, o otimizador degenera para sempre escolher `P = A`).
 
 ---
 
