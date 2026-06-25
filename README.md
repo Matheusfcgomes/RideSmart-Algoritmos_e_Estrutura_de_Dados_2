@@ -52,7 +52,7 @@ Coophab e Cajupiranga (Parnamirim/RN), centradas em **(-5.908906, -35.205872)** 
 | 3 | A* (great-circle) | O((V + E) · log V) | Heurística geográfica admissível |
 | 4 | Dijkstra Bidirecional | O((V + E) · log V) | Algoritmo adicional da literatura |
 
-Todos validados contra `nx.shortest_path_length` do NetworkX em pares aleatórios — coincidência exata com erro inferior a 0,01m.
+Todos validados contra `nx.shortest_path_length` do NetworkX em pares aleatórios: coincidência exata com erro inferior a 0,01m.
 
 ---
 
