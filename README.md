@@ -183,16 +183,9 @@ projeto_final_AED2/
 4. Tempo estimado de execução completa: **~3–5 minutos**.
 5. Todas as imagens são regeradas automaticamente em `imagens/`.
 
-
 ---
 
-## 13. Conexão com a Unidade 2
-
-Este projeto reaproveita a malha viária estudada no [trabalho da Unidade 2](../projeto_T1U2_AED2/) (T1U2), onde caracterizamos a topologia da rede usando degree, betweenness, closeness e k-core. O **bridge node `3454188414`** identificado lá reaparece neste trabalho como **ponto crítico de saturação topológica** no par Longo, uma validação cruzada interessante entre as duas análises.
-
----
-
-## 14. Referências
+## 13. Referências
 
 - Dijkstra, E. W. (1959). *A note on two problems in connexion with graphs*. Numerische Mathematik.
 - Hart, P. E., Nilsson, N. J., & Raphael, B. (1968). *A Formal Basis for the Heuristic Determination of Minimum Cost Paths*. IEEE TSSC.
