@@ -27,7 +27,7 @@ A ──(caminhada ≤ X metros)──> P ──(carro)──> B
 
 ## 2. Região Analisada
 
-Coophab e Cajupiranga (Parnamirim/RN), centradas em **(-5.908906, -35.205872)** com raio de 3 km. Mesma região do trabalho da Unidade 2, escolhida por **continuidade analítica** — a topologia já foi caracterizada estruturalmente (1342 nós, 1936 arestas após conversão para grafo simples, k-core máximo = 2, bridge node `3454188414` identificado na Av. Olavo Montenegro).
+Coophab e Cajupiranga (Parnamirim/RN), centradas em **(-5.908906, -35.205872)** com raio de 3 km. Mesma região do trabalho da Unidade 2, escolhida por **continuidade analítica**. A topologia já foi caracterizada estruturalmente (1342 nós, 1936 arestas após conversão para grafo simples, k-core máximo = 2, bridge node `3454188414` identificado na Av. Olavo Montenegro).
 
 ---
 
